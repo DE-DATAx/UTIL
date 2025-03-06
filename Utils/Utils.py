@@ -13,6 +13,7 @@ import signal
 import requests
 import json
 
+
 KEYS_RSA = rsa.newkeys(512)
 
 class LIB:
