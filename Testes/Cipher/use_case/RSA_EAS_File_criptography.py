@@ -9,7 +9,7 @@ rsa.getChavePrivada(2048)
 rsa.getChavePublica()
 
 # Lendo arquivo JSON a ser criptografado
-fh = open("C:/cloud/OneDrive/Trabalho/Projetos/Python/DATAx/UTIL/UseCase/Cipher/files/base.json", "r")
+fh = open("/Testes/Cipher/files/base.json", "r")
 buf = fh.read()
 bufj = json.loads(buf)
 
