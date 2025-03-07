@@ -1,0 +1,13 @@
+#import DE_LibCipher as LE
+from Utils.Cipher import RSA_Cipher
+
+
+rsa = RSA_Cipher()
+
+rsa.getChavePrivada(value_bytes=2048)
+rsa.getChavePublica()
+filepath = "C:/cloud/OneDrive/Trabalho/Projetos/Python/DATAx/UTIL/UseCase/Cipher/files"
+
+rsa.setFileKey(filename=f"{filepath}/private.pem", key=rsa.PRIVATE_KEY)
+rsa.setFileKey(filename=f"{filepath}/public.pem", key=rsa.PUBLIC_KEY)
+

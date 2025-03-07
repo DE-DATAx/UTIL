@@ -1,11 +1,11 @@
 import os
-from operator import truediv
+#from operator import truediv
 # -----------------------------------
-from crypto.Cipher import AES, PKCS1_OAEP
-from crypto.PublicKey import RSA
+from Crypto.Cipher import AES, PKCS1_OAEP
+from Crypto.PublicKey import RSA
 # -----------------------------------
-from crypto.Util.Padding import pad, unpad
-from crypto.Random import get_random_bytes
+from Crypto.Util.Padding import pad, unpad
+from Crypto.Random import get_random_bytes
 import base64
 import rsa
 
@@ -13,7 +13,7 @@ import rsa
 
 KEYS_RSA = rsa.newkeys(512)
 
-class Encrypt_RSA:
+class RSA_Cipher:
     """
     Esta classe faz criptografia de pequenos textos
     """
@@ -149,7 +149,7 @@ class Encrypt_RSA:
     def WORD(self):
         return self.__word
 
-class Encrypt_AES:
+class AES_Cipher:
     """
     Esta classe faz criptografia de textos longos
     """
@@ -208,7 +208,7 @@ class Encrypt_AES:
         finally:
             return result
 
-class Base64:
+class B64_Cipher:
     def __init__(self):
         ...
 
