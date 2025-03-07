@@ -1,5 +1,5 @@
 #import DE_LibCipher as LE
-from Utils.Cipher import RSA_Cipher
+from Utils import RSA_Cipher
 
 
 rsa = RSA_Cipher()
