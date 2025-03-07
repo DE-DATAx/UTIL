@@ -1,27 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aa8bcb1-19b2-4743-88d1-c0abb7bfe481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UTIL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="2aa8bcb1-19b2-4743-88d1-c0abb7bfe481" name="Changes" comment="Diversos novos casos de uso">
+      <change afterPath="$PROJECT_DIR$/docs/TestPyPi.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/Cipher/use_case/Cipher_DeCipher_Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/Cipher/use_case/Cipher_DeCipher_Word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/Cipher/use_case/Gera_Chave_Privada_Publica_Arquivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/Cipher/use_case/Gera_Chave_Privada_Publica_Arquivo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/Cipher/use_case/RSA_EAS_File_criptography.py" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/Cipher/use_case/RSA_EAS_File_criptography.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCase/DateUtils/is_valid_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/UseCase/DateUtils/is_valid_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/DateUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/DateUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/SQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/System.py" beforeDir="false" afterPath="$PROJECT_DIR$/System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/WebHook.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebHook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="UTL-0-0-2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DE-DATAx/UTIL.git",
+    "accountId": "aa5a09c1-35a6-4b16-b013-ff7fef3c0b57"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2txfbaaHjnZQ9ZJ7AHbMEarJnsn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,11 +68,179 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.BuilKey.executor": "Run",
+    "Python.BuilKeys.executor": "Run",
+    "Python.Case-2.0.0-EncryptDatabaseConnection.executor": "Debug",
+    "Python.Case-3.0.0-AES.executor": "Run",
+    "Python.Cipher_DeCipher_Word.executor": "Run",
+    "Python.CoresAnsi.executor": "Run",
+    "Python.DatasMascaras.executor": "Run",
+    "Python.DateAsLong_To_Date.executor": "Run",
+    "Python.Date_to_date_as_long.executor": "Run",
+    "Python.FindChar.executor": "Run",
+    "Python.GeraHash.executor": "Run",
+    "Python.Gera_Chave_Privada_Publica_Arquivo (1).executor": "Run",
+    "Python.RandomGenerator.executor": "Run",
+    "Python.TimeAsLong_to_Time.executor": "Debug",
+    "Python.Time_to_TimeAsLong.executor": "Run",
+    "Python.case-1.0.0-Gera_Private_key.executor": "Run",
+    "Python.dias.executor": "Run",
+    "Python.ifnull.executor": "Run",
+    "Python.iif.executor": "Run",
+    "Python.is_valid_date.executor": "Run",
+    "Python.nvl.executor": "Run",
+    "Python.teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "UTL-0-0-3",
+    "last_opened_file_path": "C:/cloud/OneDrive/Trabalho/Projetos/Python/DATAx/UTIL/docs",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\docs" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\Cipher" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\DataTime" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\Generic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\src" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\Cipher\base" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\DateUtils" />
+      <recent name="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\Utils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="n" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Teste_RSA_AES">
+    <configuration name="Case-2.0.0-EncryptDatabaseConnection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UTIL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UseCase/Cipher/use_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UseCase/Cipher/use_case/Case-2.0.0-EncryptDatabaseConnection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Cipher_DeCipher_Word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UTIL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UseCase/Cipher/use_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UseCase/Cipher/use_case/Cipher_DeCipher_Word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Gera_Chave_Privada_Publica_Arquivo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UTIL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UseCase/Cipher/use_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UseCase/Cipher/use_case/Gera_Chave_Privada_Publica_Arquivo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RSA_EAS_File_criptography" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UTIL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UseCase/Cipher/use_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\Cipher\use_case\RSA_EAS_File_criptography.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Teste_RSA_AES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UTIL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UseCase/Cipher/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\cloud\OneDrive\Trabalho\Projetos\Python\DATAx\UTIL\UseCase\Cipher\base\Teste_RSA_AES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Teste_RSA_AES" />
+        <item itemvalue="Python.RSA_EAS_File_criptography" />
+        <item itemvalue="Python.Cipher_DeCipher_Word" />
+        <item itemvalue="Python.Case-2.0.0-EncryptDatabaseConnection" />
+        <item itemvalue="Python.Gera_Chave_Privada_Publica_Arquivo (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,15 +257,152 @@
       <option name="presentableId" value="Default" />
       <updated>1741298719219</updated>
     </task>
+    <task id="LOCAL-00001" summary="UTL_0_0_0 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741299879906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741299879906</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UTL_0_0_0 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741300006533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741300006533</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UTL_0_0_0 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741300275811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741300275811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="UTL_0_0_1 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741300666677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741300666677</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UTL_0_0_1 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741301704744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741301704744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UTL_0_0_1 - Versão inicial">
+      <option name="closed" value="true" />
+      <created>1741301780274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741301780274</updated>
+    </task>
+    <task id="LOCAL-00007" summary="primeira publicacao">
+      <option name="closed" value="true" />
+      <created>1741302085942</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741302085942</updated>
+    </task>
+    <task id="LOCAL-00008" summary="UTL_0_0_1 - Fragmentação da biblioteca em varias outras">
+      <option name="closed" value="true" />
+      <created>1741311503154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741311503154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Primeira versão">
+      <option name="closed" value="true" />
+      <created>1741347132484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741347132484</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Primeira versão">
+      <option name="closed" value="true" />
+      <created>1741353592944</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741353592944</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="UTIL-0-0-1" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="UTIL-0-0-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UTL_0_0_0 - Versão inicial" />
+    <MESSAGE value="UTL_0_0_1 - Versão inicial" />
+    <MESSAGE value="primeira publicacao" />
+    <MESSAGE value="UTL_0_0_1 - Fragmentação da biblioteca em varias outras" />
+    <MESSAGE value="Primeira versão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeira versão" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Cipher.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UseCase/Cipher/use_case/Gera_Chave_Privada_Publica_Arquivo.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UseCase/Cipher/use_case/Gera_Chave_Privada_Publica_Arquivo.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

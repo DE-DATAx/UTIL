@@ -1,6 +1,6 @@
 import json
 #from DE_LibCipher import Encrypt_AES, Encrypt_RSA
-from Utils.Cipher import  AES_Cipher, RSA_Cipher
+from Utils import  AES_Cipher, RSA_Cipher
 
 eas = AES_Cipher()
 rsa = RSA_Cipher()
