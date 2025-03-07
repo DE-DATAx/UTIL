@@ -191,3 +191,50 @@ class Generic:
         value = ''.join(rd.choice(chars) for _ in range(size))
         return value
 
+    def is_valid_int(self, value):
+        msg, result = None, True
+        try:
+            int(value)
+        except Exception as error:
+            msg = error
+            result = False
+        finally:
+            return result
+
+    def is_valid_float(self, value):
+        msg, result = None, True
+        try:
+            float(value)
+        except Exception as error:
+            msg = error
+            result = False
+        finally:
+            return result
+
+    def is_valid_type(self, value, type, default_value, format=None):
+        msg, result = None, None
+        try:
+            if type.upper() == 'DATE':
+                default_value = dt.datetime.strptime(value, format)
+            elif type.upper() == 'INT':
+                default_value = int(value)
+            elif type.upper() == "FLOAT":
+                default_value = float(value)
+            else:
+                raise Exception
+            result = default_value
+        except Exception as error:
+            msg = error
+            result = msg
+        finally:
+            return result
+
+    def calcular_formula(self, formula: str, variaveis):
+        msg, result = None, None
+        try:
+            result = eval(formula, {}, variaveis)
+        except Exception as error:
+            msg = error
+            result = msg
+        finally:
+            return result

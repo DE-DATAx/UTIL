@@ -1,0 +1,15 @@
+{
+  "monterey": {
+    "database": "Oracle",
+    "name_conection": "MONTEREY",
+    "driver_conexao": "+cx_oracle",
+    "driver_library": "",
+    "path_library": "",
+    "type_conection": "SERVICE_NAME",
+    "instance": "DASABI",
+    "host": "brlsplporc-scan.dasa.net",
+    "port": "1521",
+    "username": "monterey",
+    "password": "tango3278"
+  }
+}
